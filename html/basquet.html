@@ -2,25 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes Populares</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Tag de Viewport -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> <!-- CDN de Bootstrap del CSS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <!-- CDN de Bootstrap del JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script><!-- CDN de la librería de Jquery  -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> <!-- CDN de la librería de Popper  -->
     <link rel="stylesheet" href="../styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600&display=swap" rel="stylesheet">
-    <title>Deposrtes</title>
 </head>
 
 <body>
+    
     <header>
         <div class="holder">
             <img src="../imagenes/logo.jpg" with="100" alt="Todo Deportes">
             <h1>Deportes Populares</h1>
         </div>
     </header>
+
     <nav>
-        <div>
+        <div class="container">
             <ul class="holder">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="rugby.html">Rugby</a></li>
@@ -31,7 +32,9 @@
         </div>
     </nav>
     <main>
+        
         <div class="holder">
+            <div class="container">
             <p>
             <h2>En que se basa el Basquet</h2>
             El baloncesto, basquetbol o básquetbol (del inglés basketball; de basket, ‘canasta’, y ball, ‘pelota’), o
@@ -48,11 +51,11 @@
             de 10 minutos.
             </p>
         </div>
-        <div>
-            <!--Aca tengo que hagregar el selector de Js para dar el dato correcto de la divicion a la que tiene que ir segun su edad-->
-        </div>
+    </div>
+    <h2 class="container">Ultimos Mundiales</h2>
+        <div class="col-md-12"></div>
         <div class="holder">
-            <h2>Ultimos Mundiales</h2>
+            
             <div class="personas">
                 <div class="m2011-2023">
                     <img src="/Introducción al Desarrollo Web + Onboarding/Pre-entrega N 1" alt="m2010">
@@ -64,6 +67,7 @@
                         organizador del campeonato de 2010. Estados Unidos obtuvo así su cuarto título mundial mientras
                         que Turquía consiguió su primera medalla en un campeonato del mundo.</p>
                 </div>
+               
                 <div class="m2011-2023">
                     <img src="/Introducción al Desarrollo Web + Onboarding/Pre-entrega N 1" alt="m2014">
                     <h2>Campeon: United States</h2>
@@ -76,6 +80,7 @@
                         esta competición. Además, en su condición de campeón mundial, se clasificó para los Juegos
                         Olímpicos de Río de Janeiro de 2016.</p>
                 </div>
+            
                 <div class="m2011-2023">
                     <img src="/Introducción al Desarrollo Web + Onboarding/Pre-entrega N 1" alt="m2019">
                     <h2>Campeon: España</h2>
@@ -102,6 +107,7 @@
                         título mundial, cuyo actual portador es el equipo de España, vencedor del Mundial de 2019.</p>
                 </div>
             </div>
+        </div>
 
         </div>
     </main>
