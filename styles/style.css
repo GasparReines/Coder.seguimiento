@@ -1,0 +1,206 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    margin: 0;
+}
+
+header img {
+    width: 110px;
+    animation-duration: 2s;
+    animation-delay:unset ;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #9385bb;
+    padding: 16px 0;
+}
+
+
+
+header h1 {
+    display: inline-block;
+    position: relative;
+    color: darkred;
+    font-style: oblique;
+    font-size: 50px;
+    font-weight: 500;
+    bottom: 30px;
+}
+
+nav {
+    background-color: lightgrey;
+    margin-bottom: 28px;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 150px;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 6.2px 6.2px;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    background-color: darkgray;
+    transform: translate(0px, -20px);
+}
+
+.activo {
+    background-color: darkgray;
+    transform: skew(10deg);
+}
+
+h2,
+h3 {
+    color: darkred;
+    font-family: 'Oswald', sans-serif;
+}
+
+.left {
+    float: left;
+    width: 70%;
+}
+
+.right {
+    float: right;
+    width: 25%;
+}
+
+.testimonio .right {
+    font-weight: bold;
+    padding: 1em;
+    font-size: 22px;
+    display: block;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #539af5;
+    text-align: center;
+    clear: both;
+    padding: 2em;
+    margin-top: 2em;
+}
+
+.m2007-2019 {
+    width: 21%;
+    margin-left: 2%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.mundiales {
+    overflow: hidden;
+}
+
+.m2007-2019 img {
+    border-radius: 10px;
+    margin: 14px 0 18px;
+    max-width: 80%;
+}
+
+.anio1,
+.anio2,
+.anio3,
+.anio4 {
+    width: 40%;
+    margin-left: 2%;
+    border: 4px solid darkblue;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: lightblue;
+    text-align: center;
+
+}
+
+.anio1 img,
+.anio2 img,
+.anio3 img,
+.anio4 img {
+    border-radius: 10px;
+    margin: 14px 0 18px;
+    max-width: 80%;
+}
+
+.persona1,
+.persona2 {
+    display: inline-flex;
+    margin-left: 6em;
+}
+
+.m2011-2023 {
+    border: 7px solid darkgray;
+    border-radius: 11.2px;
+    margin: 70;
+    padding: 17px;
+    overflow: hidden;
+}
+
+.m2011-2023 img {
+    border-radius: 10px;
+    margin: 14px 0 18px;
+    max-width: 60%;
+}
+
+.m2011-2023 p {
+    width: 75%;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 16px;
+
+}
+
+.m2011-2023 img {
+    border-radius: 16px;
+    float: right;
+}
+.columna {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 12px;
+}
+.columna.left{
+    border-right: 3px solid #539af5;
+}
+.coumna.right p {
+    font-size: 14.4px;
+}
+
+.columna.right ul li {
+    font-size: 12.8px;
+}
