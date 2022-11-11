@@ -1,0 +1,25 @@
+{
+  "name": "nuevoproyecto",
+  "version": "1.0.0",
+  "description": "Pre entrega numero 3 de coder, esto se moldeara para hacer la entrega final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss styles/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GasparReines/Coder.seguimiento.git"
+  },
+  "author": "Gaspar Reines",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GasparReines/Coder.seguimiento/issues"
+  },
+  "homepage": "https://github.com/GasparReines/Coder.seguimiento#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

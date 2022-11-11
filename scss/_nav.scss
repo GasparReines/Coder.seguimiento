@@ -1,0 +1,31 @@
+nav {
+    background-color: $color-pririo;
+    margin-bottom: 28px;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 150px;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 6.2px 6.2px;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    background-color: $color-activo;
+    transform: translate(0px, -20px);
+}
