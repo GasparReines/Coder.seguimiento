@@ -48,7 +48,8 @@ header img {
 
 header {
   background-color: #9385bb;
-  padding: 16px 0; }
+  padding: 16px 0px; 
+}
 
 header h1 {
   display: inline-block;
@@ -58,7 +59,6 @@ header h1 {
   font-size: 50px;
   font-weight: 500;
   bottom: 30px; }
-
 .activo {
   background-color: darkgray;
   transform: skew(10deg); }
@@ -99,6 +99,32 @@ footer {
   box-sizing: border-box;
   background-color: lightgrey;
   text-align: center; }
+  
+  @media (max-width:956px) and (min-width:576px) {
+    .m2007-2019 {
+      border: 7px solid darkgray;
+      border-radius: 11.2px;
+      margin: left;
+      overflow: hidden; 
+    }
+    .m2007-2019 h2, .m2007-2019 h3{
+      font-size: 15px;
+    }
+    .anio1 h2,
+    .anio2 h2,
+    .anio3 h2,
+    .anio4 h2,
+    .anio1 h3,
+    .anio2 h3,
+    .anio3 h3,
+    .anio4 h3{
+      font-size: 23px;
+    }
+    .header .holder h1{
+      text-align: center;
+      margin-top: 2em;
+    }
+  }
 
 .mundiales {
   overflow: hidden; }
