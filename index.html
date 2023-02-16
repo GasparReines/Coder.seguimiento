@@ -12,7 +12,8 @@
 </head>
 
 <body>
-    <!--agregar con bootstrap el container fluid-->
+    <h1 id="noExiste">Este titulo jamaz aparecera en la pag</h1>
+   
     <header>
         <div class="holder">
             <img src="imagenes/logo.jpg" with="100" alt="Todo Deportes">
@@ -21,7 +22,7 @@
     </header>
     <nav>
         <div class="container">
-        <div>
+        <div id="listadepo">
             <ul class="holder">
                 <li><a class="activo" href="../nuevoproyecto/index.htmlf">Home</a></li>
                 <li><a href="html/rugby.html">Rugby</a></li>
@@ -34,6 +35,14 @@
     </nav>
     <main>
         <div class="container">
+            <p>Deporte favorito entre los demostrados:</p>
+        <select id="depofav">
+            <option value="Rugby">Rugby</option>
+            <option value="Basquet">Basquet</option>
+            <option value="Futbol">Futbol</option>
+            <option value="Hockey">Hockey</option>
+        </select>
+        <p id="respuesta"></p>
         <div class="holder">
             <div class="columnas">
                 <div class="deporte left">
@@ -82,6 +91,11 @@
                     <div class="testimonio2">
                         <spam class="autores">Sergio Humberto Barbosa Granados y Ángela María Urrea Cuéllar.</spam>
                     </div>
+                    <form id="form">
+                        <input type="text" placeholder="su provincia de origen">
+                        <input type="text" placeholder="categoria respectiva">
+                        <input type="submit" value="Enviar">
+                    </form>
                 </div>
             </div>
         </div>
@@ -93,6 +107,7 @@
             <h3>Creado por Gaspar Reines</h3>
         </div>
     </footer>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
